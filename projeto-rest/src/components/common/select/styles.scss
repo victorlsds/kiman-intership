@@ -1,0 +1,11 @@
+:global {
+  @import '~antd/lib/select/style/index';
+  .ant-select-selection-selected-value {
+    pointer-events: none;
+  }
+
+  .ant-select-dropdown-menu-item-selected:hover {
+   // background-color: #fff;
+  }
+  
+}

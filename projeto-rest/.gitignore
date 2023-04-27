@@ -1,0 +1,9 @@
+coverage
+dist
+node_modules
+npm-debug.log*
+buildClient
+.vscode/settings.json
+.DS_Store
+build-war/kiman-at.war
+package-lock.json

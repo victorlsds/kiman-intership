@@ -1,0 +1,87 @@
+.layout {
+  height: 100%;
+}
+
+.trigger {
+  z-index: 3;
+  position: absolute;
+  height: 100%;
+  -webkit-transition: left .3s;
+  transition: left .3s;
+}
+
+.trigger:hover {
+  border-left: 3px solid;
+  border-left-color: #1890ff;
+  cursor: pointer;
+  div {
+    border-top: 3px solid;
+    border-top-color: #1890ff;
+    border-bottom: 3px solid;
+    border-bottom-color: #1890ff;
+    border-right: 3px solid;
+    border-right-color: #1890ff;
+    width: 33px;
+    line-height: 36px;
+  }
+}
+
+.trigger div {
+  top: 26px;
+  position: relative;
+  text-align: center;
+  width: 36px;
+  height: 42px;
+  line-height: 42px;
+  background: $white;
+  font-size: 18px;
+  border-radius: 0 4px 4px 0;
+  -webkit-transition: background .3s ease;
+  transition: background .3s ease;
+  box-shadow: 5px 0px 40px 3px rgba(0,0,0,0.1);
+}
+
+.trigger div:hover {
+  cursor: pointer;
+  background: #1890ff;
+  color: $white;
+}
+
+.content {
+  margin: 12px 15px 12px 15px; 
+}
+
+.row {
+  height: 100%;
+  width: 100%;
+}
+
+.breadcrumb-container {
+  width: 100%;
+  background: $white;
+  padding: 10px 40px;
+  margin-top: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.breadcrumb-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.breadcrumb-label {
+  padding-left: 8px; 
+}
+
+.button-default {
+  background: $blue001;
+  color: $white;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-size: 11px;
+  transition: background .25s ease;
+}

@@ -1,0 +1,39 @@
+.details-item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+
+  // & ~ .details-item {
+  //   margin-bottom: 30px;
+  // }
+}
+
+.details-item-block {
+  width: 100%;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.details-item-label {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+  color: $gray001;
+  margin-top:10px;
+  margin-bottom:2px;
+}
+
+.details-item-value {
+  font-size: 13px;
+  color: $gray001;
+}
+
+.text-align-center {
+  text-align: center;
+}
+.text-align-left {
+  text-align: left;
+}
+.text-align-right {
+  text-align: right;
+}

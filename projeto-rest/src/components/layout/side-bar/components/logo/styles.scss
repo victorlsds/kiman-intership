@@ -1,0 +1,28 @@
+.logo-cliente {
+  background-color: $background-logo;
+  padding-top: 15px;
+}
+.logo {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-align: center;
+  img{
+    display: block;
+    padding: 0;
+    margin: auto;
+    &.kiman-logo {
+      width: 70px;
+    }
+    &.kiman-logo-collapsed {
+      width: 24px;
+    }
+    &.logo {
+      width: 150px;
+    }
+    &.logo-collapsed {
+      width: 24px;
+    }
+  }
+}
+
+

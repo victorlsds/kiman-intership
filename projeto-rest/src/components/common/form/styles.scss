@@ -1,0 +1,26 @@
+.selectLabel {
+  font-size: 12px;
+  color: $gray001;
+}
+
+.input {
+  border: 1px solid $gray002;
+  padding: 10px 20px;
+  background: $white;
+  font-size: 12px;
+}
+
+.select {
+  border-radius: 5px;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.option {
+  color: $gray002
+}
+
+.input {
+  border-radius: 20px;
+  flex-grow: 1;
+}

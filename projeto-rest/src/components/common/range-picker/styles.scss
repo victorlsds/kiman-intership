@@ -1,0 +1,12 @@
+:global {
+  @import '~antd/lib/date-picker/style/index';
+}
+
+div.container {
+  display: inline;
+}
+
+label.dateLabel {
+  margin-right: 10px;
+  margin-left: 10px;
+}

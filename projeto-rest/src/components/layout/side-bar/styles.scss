@@ -1,0 +1,8 @@
+.sider {
+  background-color: $white;
+  box-shadow: 5px 0px 40px 3px rgba(0,0,0,0.1);
+  z-index: 3;
+  -webkit-transition: .3s;
+  transition: .3s;
+  height: 100vh;
+}

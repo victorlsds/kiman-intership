@@ -1,0 +1,12 @@
+.details-row {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width:100%;
+}
+
+.details-row-border {
+  border-top: 1px solid $gray002
+}

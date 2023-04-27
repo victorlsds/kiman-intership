@@ -1,0 +1,9 @@
+:global {
+  @import '~antd/lib/breadcrumb/style/index';
+}
+
+.breadcrumb-container {
+  background: $white;
+  border-top: 1px solid $gray002;
+  padding: 10px 30px;
+}

@@ -1,0 +1,65 @@
+.layout-menu {
+  height: calc(100vh - 146px);
+  overflow-x: hidden; 
+  overflow-y: scroll; 
+}
+
+.layout-menu-overflow {
+  height: calc(100vh - 238px);
+  overflow-x: hidden; 
+  overflow-y: scroll; 
+}
+
+.layout-menu-overflow, .layout-menu-overflow li {
+  margin: 0px !important;
+}
+
+.layout-menu-overflow li ul li {
+  font-size: 16px !important;
+  line-height: 48px !important;
+  height: 48px !important;
+  padding-left: 48px;
+}
+
+.layout-menu-item-collaped {
+  font-size: 16px !important;
+  line-height: 48px !important;
+  height: 48px !important;
+  padding-left: 12px;
+}
+
+.layout-menu-item-selected {
+  background-color: $gray002 !important;
+  border-right: 10px solid #ff5a04 !important;
+}
+
+.layout-sub-menu-svg {
+  min-width: 14px;
+  margin-right: 10px;
+  height: 18px !important;
+}
+
+.layout-menu-item-svg {
+  min-width: 14px;
+  margin-right: 10px;
+  height: 14px !important;
+}
+
+.layout-menu-item, .layout-menu-item-selected{
+  svg {
+    color: $gray001;
+  }
+  span {
+    color: $gray001;
+  }
+}
+
+.layout-menu-item:hover, .layout-menu-item-selected:hover{
+  svg, span {
+    color: $blue003 !important;
+  }
+}
+
+.layout-menu-overflow li:after {
+  border-right: 10px solid $orange002 !important;
+}

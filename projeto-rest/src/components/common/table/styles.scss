@@ -1,0 +1,20 @@
+:global {
+  @import '~antd/lib/table/style/index';
+  @import '~antd/lib/divider/style/index';
+  @import '~antd/lib/pagination/style/index'; //@import '~antd/lib/icon/style/index';
+}
+
+:global {
+  .ant-table-thead>tr>th,
+  .ant-table-tbody>tr>td {
+    word-break: normal;
+  }
+  .ant-table-thead>tr>th {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .ant-table-wrapper{
+    width: 100%;
+  }
+}
